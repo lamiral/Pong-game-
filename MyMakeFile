@@ -1,0 +1,3 @@
+all:
+	 g++ main.cpp shaders/shader.cpp  uTex.cpp Player_count.cpp -lGL -lGLU -lglut -lGLEW  -lSOIL -o main
+
